@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+
+
+nav {
+        
+            color: floralwhite;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: floralwhite;
+            margin: 0 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        nav li {
+            margin-left: 20px;
+            font-size: 30px;
+        }
+
+        nav img {
+            
+            height: 40px;
+            width: auto;
+            margin-right: 400px;
+        }
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    height: 900px;
+    width: 1500px;
+    background: rgba(0, 0, 0, 0.672);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    border: 1px solid rgba(0, 0, 0, 0.307);
+}
+.des{
+    color:floralwhite;
+    text-align: center;
+}
+
+.heroes img{
+    margin-bottom: 50px;
+}
+
+img:hover {
+    transform: scale(1.5);
+      transition: transform .1s ease;
+}
+
+ h1 {
+    font-size: 50px;
+}
+
+ @media (max-width: 900px) {
+    .wrapper {
+    height: 45rem;
+    width: 90%;
+  }
+ }
+
